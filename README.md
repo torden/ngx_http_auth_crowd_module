@@ -3,7 +3,11 @@
 ## Configure and compile Nginx
 
 ```bash
-$ ./configure --add-dynamic-module=../ngx_http_auth_crowd_module --with-debug --with-http_ssl_module
+$ ./configure \
+--add-dynamic-module=../ngx_http_auth_crowd_module \
+--with-debug \
+--with-http_ssl_module
+
 $ make modules
 ```
 http://wiki.nginx.org/HttpSslModule
